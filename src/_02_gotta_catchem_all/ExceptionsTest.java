@@ -47,7 +47,7 @@ class ExceptionsTest {
 	@Test
 	public void testReverseString() {
 		try {
-			ExceptionMethods.reverseString("");
+			ExceptionMethods.reverseString("my name is shiva");
 		} catch(Exception e) {
 			System.out.println("hello");
 		}
